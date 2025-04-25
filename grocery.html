@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Section</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+
+        h2 {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 28px;
+            color: #333;
+        }
+
+        /* Grocery Section Styles */
+        .grocery-section {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .grocery-items {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .grocery-item {
+            width: 200px;
+            background-color: white;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            text-align: center;
+            margin: 10px;
+            padding: 15px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        /* .grocery-item:hover {
+            transform: scale(1.05);
+        } */
+
+        .grocery-item img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        .grocery-item h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .price {
+            font-size: 18px;
+            color: #28a745;
+        }
+
+        .old-price {
+            text-decoration: line-through;
+            color: #888;
+            font-size: 14px;
+        }
+
+        button {
+            padding: 8px 16px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        /* button:hover {
+            background-color: #218838;
+        } */
+
+    </style>
+</head>
+<body>
+
+    <section class="grocery-section">
+        <h2>Grocery Items</h2>
+        <div class="grocery-items">
+            <!-- Product 1: Wheat Flour -->
+            <div class="grocery-item">
+                <img src="wheatflour.jpg" alt="Wheat Flour">
+                <h3>Wheat Flour 5kg</h3>
+                <p class="price">₹200 <span class="old-price">₹250</span></p>
+                <button>Add to Cart</button>
+            </div>
+
+            <!-- Product 2: Basmati Rice -->
+            <div class="grocery-item">
+                <img src="basmati rice.jpg" alt="Basmati Rice">
+                <h3>Basmati Rice 5kg</h3>
+                <p class="price">₹500 <span class="old-price">₹600</span></p>
+                <button>Add to Cart</button>
+            </div>
+
+            <!-- Product 3: Sugar -->
+            <div class="grocery-item">
+                <img src="sugar.jpg" alt="Sugar">
+                <h3>Sugar 1kg</h3>
+                <p class="price">₹40 <span class="old-price">₹50</span></p>
+                <button>Add to Cart</button>
+            </div>
+
+            <!-- Product 4: Cooking Oil -->
+            <div class="grocery-item">
+                <img src="sunfloweroil.jpg" alt="Cooking Oil">
+                <h3>Sunflower Oil 1L</h3>
+                <p class="price">₹120 <span class="old-price">₹140</span></p>
+                <button>Add to Cart</button>
+            </div>
+
+            <!-- Product 5: Salt -->
+            <div class="grocery-item">
+                <img src="salt.jpg" alt="Salt">
+                <h3>Salt 1kg</h3>
+                <p class="price">₹20 <span class="old-price">₹25</span></p>
+                <button>Add to Cart</button>
+            </div>
+
+            <!-- Product 6: Lentils -->
+            <div class="grocery-item">
+                <img src="lentils.jpg" alt="Lentils">
+                <h3>Red Lentils 1kg</h3>
+                <p class="price">₹100 <span class="old-price">₹120</span></p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
