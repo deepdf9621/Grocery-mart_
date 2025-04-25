@@ -1,0 +1,37 @@
+/* Hide the checkbox itself */
+.see-more-toggle {
+    display: none;
+}
+
+/* Initial max-height for extra products */
+.extra-products {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+}
+
+/* When checkbox is checked, show the hidden products */
+.see-more-toggle:checked ~ .extra-products {
+    max-height: 1000px; /* Large enough to show all hidden products */
+}
+
+/* See More button styling */
+.see-more-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.see-more-btn:hover {
+    background-color: #218838;
+}
+
+/* Change button text when checkbox is checked */
+.see-more-toggle:checked + .see-more-btn::after {
+    content: " See Less";
+}
