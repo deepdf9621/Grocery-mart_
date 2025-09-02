@@ -1,0 +1,68 @@
+/* Section styling */
+.personal-care, .medicine {
+    margin: 40px 0;
+    background-color: rgb(250, 248, 251);
+}
+
+.personal-care h3, .medicine h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 200px;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* .product:hover {
+    transform: scale(1.05);
+} */
+
+.product img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.price {
+    font-size: 18px;
+    color: #555;
+    margin-top: 10px;
+}
+
+.discount {
+    text-decoration: line-through;
+    font-size: 14px;
+    color: #a0a0a0;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+h3{
+    background-color: #218838;
+}

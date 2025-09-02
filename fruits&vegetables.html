@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruits and Vegetables Section</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+
+        h2 {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 28px;
+            color: #333;
+        }
+
+        /* Fruits and Vegetables Section */
+        .fruits-vegetables-section {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #e8f5e9;
+            border-radius: 8px;
+        }
+
+        .fruits-vegetables-section h2 {
+            text-align: center;
+            font-size: 28px;
+            color: #388e3c;
+            margin-bottom: 20px;
+        }
+
+        .product-items {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .product-item {
+            width: 200px;
+            background-color: white;
+            border: 2px solid #388e3c;
+            border-radius: 8px;
+            text-align: center;
+            margin: 10px;
+            padding: 15px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        /* .product-item:hover {
+            transform: scale(1.05);
+        } */
+
+        .product-item img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        .product-item h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .product-item .price {
+            font-size: 18px;
+            color: #388e3c;
+        }
+
+        .product-item button {
+            padding: 8px 16px;
+            background-color: #388e3c;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .product-item button:hover {
+            background-color: #2e7d32;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Fruits and Vegetables Section -->
+    <section class="fruits-vegetables-section">
+        <h2>Fresh Fruits and Vegetables</h2>
+        <div class="product-items">
+            <!-- Product 1: Apples -->
+            <div class="product-item">
+                <img src="apple.jpg" alt="Apples">
+                <h3>Fresh Apples (1kg)</h3>
+                <p class="price">₹150</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <!-- Product 2: Bananas -->
+            <div class="product-item">
+                <img src="banana.jpg" alt="Bananas">
+                <h3>Ripe Bananas (1kg)</h3>
+                <p class="price">₹50</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <!-- Product 3: Tomatoes -->
+            <div class="product-item">
+                <img src="tomato.jpg" alt="Tomatoes">
+                <h3>Fresh Tomatoes (1kg)</h3>
+                <p class="price">₹40</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <!-- Product 4: Spinach -->
+            <div class="product-item">
+                <img src="spinach.jpg" alt="Spinach">
+                <h3>Organic Spinach (500g)</h3>
+                <p class="price">₹30</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <!-- Product 5: Potatoes -->
+            <div class="product-item">
+                <img src="potato.jpg" alt="Potatoes">
+                <h3>Fresh Potatoes (1kg)</h3>
+                <p class="price">₹25</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
