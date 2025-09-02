@@ -1,0 +1,33 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #083709;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Cart Container Styling */
+.cart-container {
+    background-color: rgb(17, 17, 17);
+
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+/* Header Style */
+.cart-container h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #b51919;
+}
+
+/* Empty Cart Message Style */
+.empty-message {
+    font-size: 18px;
+    color: #ec2525;
+}
